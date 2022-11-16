@@ -1,5 +1,5 @@
-import { Calendario } from "./Calendario";
-import { InfoVentas } from "./InfoVentas";
+import { Calendario } from "../src/components/calendario/Calendario";
+import { InfoVentas } from "./components/InfoVentas";
 import { Routes, Route, Navigate } from "react-router-dom";
 export const App = () => {
   return (

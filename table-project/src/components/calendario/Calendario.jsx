@@ -1,10 +1,8 @@
 import { useState } from "react";
-import { DatosVentas } from "./DatosVentas";
-import { dataOne } from "./data/dataOne";
-import { Encabezado } from "./Encabezado";
-import { Encabezado2 } from "./Encabezado2";
-import { Link } from "react-router-dom";
-import { InfoVentas } from "./InfoVentas";
+import { DatosVentas } from "../DatosVentas";
+import { dataOne } from "../../data/dataOne";
+import { Encabezado } from "../encabezado/Encabezado";
+import { Encabezado2 } from "../encabezado/Encabezado2";
 
 export const Calendario = () => {
   const [fechaInicio, setFechaInicio] = useState();

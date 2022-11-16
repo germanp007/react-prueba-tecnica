@@ -6,8 +6,8 @@ import {
   AccordionItem,
 } from "react-headless-accordion";
 import { AccordionComponent } from "./AccordionComponent";
-import { SVG } from "./images/SVG";
-import { Total } from "./Total";
+import { SVG } from "../../images/SVG";
+import { Total } from "../Total";
 
 export const AccordionMar = ({ data }) => {
   const [supervisor, setSupervisor] = useState([

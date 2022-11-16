@@ -5,7 +5,7 @@ import {
   AccordionItem,
 } from "react-headless-accordion";
 import { Link } from "react-router-dom";
-import { SVG } from "./images/SVG";
+import { SVG } from "../../images/SVG";
 
 export const AccordionComponent = ({ supervisor, data, isEntreprenur }) => {
   return (

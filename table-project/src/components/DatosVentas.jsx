@@ -1,5 +1,5 @@
-import { AccordionBA } from "./AccordionBA";
-import { AccordionMar } from "./AccordionMar";
+import { AccordionBA } from "./accordion/AccordionBA";
+import { AccordionMar } from "./accordion/AccordionMar";
 import { Total } from "./Total";
 
 export const DatosVentas = ({ datosValidados }) => {

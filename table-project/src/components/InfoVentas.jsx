@@ -1,12 +1,12 @@
-import { dataTwo } from "./data/dataTwo.js";
-import { SVG } from "./images/SVG";
+import { dataTwo } from "../data/dataTwo";
+import { SVG } from "../images/SVG";
 import {
   Accordion,
   AccordionBody,
   AccordionHeader,
   AccordionItem,
 } from "react-headless-accordion";
-import { Encabezado3 } from "./Encabezado3.jsx";
+import { Encabezado3 } from "./encabezado/Encabezado3";
 import { useParams } from "react-router-dom";
 
 export const InfoVentas = () => {
